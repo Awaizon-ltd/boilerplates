@@ -1,0 +1,63 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0a0a0a;
+  color: #ededed;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #1e1e1e;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666;
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.card code {
+  color: #ededed;
+  font-size: 0.8rem;
+  font-family: 'Menlo', 'Monaco', monospace;
+  word-break: break-all;
+}
+
+.warning { color: #f59e0b !important; }
+.muted { color: #444; font-size: 0.9rem; }
