@@ -40,4 +40,4 @@ npm run dev
 - [Docs](https://awarizon.com/docs)
 - [API key dashboard](https://awarizon.com/dashboard/api-keys)
 - [WalletConnect project ID](https://cloud.walletconnect.com)
-- [Templates repo](https://github.com/awarizon/awarizon-templates)
+- [Templates repo](https://github.com/Awaizon-ltd/dapp-templates)
